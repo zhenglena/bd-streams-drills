@@ -1,14 +1,9 @@
 ## Practice Makes Perfect
 
-**Branch name:** streams-prework-drills
-
-**RDE workfows:**  
-streams-prework-drills
-
 ## Introduction
-We've provided several classes to flex your streams knowledge. Each class in the `drills` package
+We've provided several classes to flex your streams knowledge. Each class in the top level package
 focuses on a different Stream related topic. You can find the classes the drills interact with in the
-`resources` package. You do **not** need to modify classes in the `resources` package.
+`utilities` package. You do **not** need to modify classes in the `utilities` package.
 
 Heads up! Some of these drills will require stream operations other than the ones we covered in the reading.
 This exercises the very important skill of learning to read Javadocs. We recommend referencing the Javadoc for
@@ -25,4 +20,4 @@ Using streams and `Optional`s, implement each method according to its Javadoc.
 1. `TransactionQuestions`: Combine all your stream knowledge to analyze Traders and their Transactions.
 Implement each method according to its Javadoc.
 
-Beside the RDE workflow, each class has its own test class that you can run in IntelliJ.
+Each class has its own test class that you can run in IntelliJ.
