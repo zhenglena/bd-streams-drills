@@ -1,0 +1,12 @@
+ConvertToStreamsDrillsTest.java
+ ConvertToStreamsDrillsTest
+OptionalDrillsTest.java
+ OptionalDrillsTest
+CollectingDrillsTest.java
+ CollectingDrillsTest
+TransactionQuestionsTest.java
+ TransactionQuestionsTest
+StreamDrillsTest.java
+ StreamDrillsTest
+SkipUnsupportedOperations.java
+ SkipUnsupportedOperations
