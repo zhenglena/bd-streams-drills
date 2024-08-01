@@ -1,9 +1,11 @@
 
+import org.apache.commons.lang3.ObjectUtils;
 import utilities.Car;
 import utilities.Dish;
 import utilities.Insurance;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 public class OptionalDrills {
@@ -13,7 +15,11 @@ public class OptionalDrills {
      * @param menu - the list of dishes to look through
      */
     public static void printOutExampleVegetarianDish(List<Dish> menu) {
-        throw new UnsupportedOperationException();
+        menu.forEach(item -> {
+                    if (item.isVegetarian()) {
+                        System.out.println(item.getName());
+                    }
+                });
     }
 
     /**
@@ -22,7 +28,10 @@ public class OptionalDrills {
      * @return the name of the dish if it exists
      */
     public static Optional<String> getDishName(Dish dish) {
-        throw new UnsupportedOperationException();
+        if (dish == null) {
+            return Optional.empty();
+        }
+        return Optional.of(dish.getName());
     }
 
     /**
@@ -31,7 +40,10 @@ public class OptionalDrills {
      * @return The name of the insurance if it exists
      */
     public static Optional<String> getExistingInsuranceName(Car car) {
-        throw new UnsupportedOperationException();
+        if (car.getInsurance().get().getName() == null) {
+            return Optional.empty();
+        }
+        return Optional.of(car.getInsurance().get().getName());
     }
 
     /**
@@ -41,7 +53,11 @@ public class OptionalDrills {
      * @return the name of the cheapest insurance if it exists
      */
     public static Optional<String> findCheapestInsuranceName(Car car) {
-        throw new UnsupportedOperationException();
+        try {
+            return Optional.of(otherService(car).getName());
+        } catch (NullPointerException e) {
+            return Optional.empty();
+        }
     }
 
     /**
@@ -52,13 +68,16 @@ public class OptionalDrills {
      * @return the name of the car's cheapest insurance if it and the car exist
      */
     public static Optional<String> findCheapestInsuranceName(Optional<Car> car) {
-        throw new UnsupportedOperationException();
+        return car.map(value -> safeOtherService(value).getName());
     }
 
     /**
      * Tries to find the cheapest insurance, may be null.
      */
     private static Insurance otherService(Car car) {
+        if (car.getInsurance().isPresent()) {
+            return car.getInsurance().get();
+        }
         return null;
     }
 

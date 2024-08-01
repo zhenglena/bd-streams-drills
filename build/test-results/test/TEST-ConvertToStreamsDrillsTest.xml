@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConvertToStreamsDrillsTest" tests="46" skipped="0" failures="0" errors="0" timestamp="2024-08-01T21:49:21" hostname="Brandons-MacBook-Air.local" time="0.393">
+  <properties/>
+  <testcase name="getDistinctAgesTest1()" classname="ConvertToStreamsDrillsTest" time="0.018"/>
+  <testcase name="getDistinctAgesTest2()" classname="ConvertToStreamsDrillsTest" time="0.017"/>
+  <testcase name="getDistinctAgesTest3()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="getDistinctAgesTest4()" classname="ConvertToStreamsDrillsTest" time="0.005"/>
+  <testcase name="getDistinctAgesTest5()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="getDistinctAgesTest6()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="returnSquareRootTest1()" classname="ConvertToStreamsDrillsTest" time="0.004"/>
+  <testcase name="returnSquareRootTest2()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="returnSquareRootTest3()" classname="ConvertToStreamsDrillsTest" time="0.002"/>
+  <testcase name="returnSquareRootTest4()" classname="ConvertToStreamsDrillsTest" time="0.002"/>
+  <testcase name="returnSquareRootTest5()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="returnSquareRootTest6()" classname="ConvertToStreamsDrillsTest" time="0.002"/>
+  <testcase name="getLimitedUserListTest1()" classname="ConvertToStreamsDrillsTest" time="0.009"/>
+  <testcase name="getLimitedUserListTest2()" classname="ConvertToStreamsDrillsTest" time="0.009"/>
+  <testcase name="getLimitedUserListTest3()" classname="ConvertToStreamsDrillsTest" time="0.01"/>
+  <testcase name="getLimitedUserListTest4()" classname="ConvertToStreamsDrillsTest" time="0.002"/>
+  <testcase name="getLimitedUserListTest5()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="getLimitedUserListTest6()" classname="ConvertToStreamsDrillsTest" time="0.006"/>
+  <testcase name="getLimitedUserListTest7()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="getLimitedUserListTest8()" classname="ConvertToStreamsDrillsTest" time="0.002"/>
+  <testcase name="getLimitedUserListTest9()" classname="ConvertToStreamsDrillsTest" time="0.002"/>
+  <testcase name="getAgeFromUsersTest1()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="getAgeFromUsersTest2()" classname="ConvertToStreamsDrillsTest" time="0.015"/>
+  <testcase name="getAgeFromUsersTest3()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="getAgeFromUsersTest4()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="findAny_oneUserWithName()" classname="ConvertToStreamsDrillsTest" time="0.009"/>
+  <testcase name="sortDishesByCalories_emptyList()" classname="ConvertToStreamsDrillsTest" time="0.012"/>
+  <testcase name="sortDishesByCalories_allOver400()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="findAny_emptyList()" classname="ConvertToStreamsDrillsTest" time="0.009"/>
+  <testcase name="findAny_manyUsersWithName()" classname="ConvertToStreamsDrillsTest" time="0.004"/>
+  <testcase name="sortDishesByCalories_randomDishes()" classname="ConvertToStreamsDrillsTest" time="0.002"/>
+  <testcase name="getLimitedUserListTest10()" classname="ConvertToStreamsDrillsTest" time="0.006"/>
+  <testcase name="getLimitedUserListTest11()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="getLimitedUserListTest12()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="getLimitedUserListTest14()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="getLimitedUserListTest15()" classname="ConvertToStreamsDrillsTest" time="0.018"/>
+  <testcase name="getLimitedUserListTest16()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="findAny_noUsersWithName()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="newDeck()" classname="ConvertToStreamsDrillsTest" time="0.019"/>
+  <testcase name="sortDishesByCalories_allUnder400()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="countUserOlderThan25Test1()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="countUserOlderThan25Test2()" classname="ConvertToStreamsDrillsTest" time="0.003"/>
+  <testcase name="countUserOlderThan25Test3()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="countUserOlderThan25Test4()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="countUserOlderThan25Test5()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <testcase name="countUserOlderThan25Test6()" classname="ConvertToStreamsDrillsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
